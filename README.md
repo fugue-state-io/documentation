@@ -4,7 +4,8 @@ An open source project for a modular D.A.W. aimed at learning music and facilita
 Do everything with declarative gitops. Use argo-cd for continuous delivery and argo-workflows for continuous integration.
 
 ### Bootstrapping
-dot-filesdot-files `workspace_bootstrap.sh`
+dot-files `workspace_bootstrap.sh` sets up debian dev container.
+
 Manually apply the `fugue-state-io/terraform` terraform repository.
 - Provide `github org` credentials
 - Provide `digital ocean` token
