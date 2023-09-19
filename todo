@@ -1,2 +1,3 @@
 create workflow for applying terraform
+create workflow for fugue-state-ui
 create script for loading terraform env vars
