@@ -1,15 +1,13 @@
 # fugue-state.io
 An open source project for a modular D.A.W. aimed at learning music and facilitating practice.
+
 ## Operators Manual
 Do everything with declarative gitops. Use argo-cd for continuous delivery and argo-workflows for continuous integration.
-
 ### Bootstrapping
 dot-files `workspace_bootstrap.sh` sets up debian dev container.
-
 Manually apply the `fugue-state-io/terraform` terraform repository.
-- Provide `github org` credentials
-- Provide `digital ocean` token
-- Provide `helm repo` token
+- Retrieve secrets from running cluster and source as env vars
+- Create Namespaces and secrets here
 Manually deploy the `fugue-state-io/helm-charts/fugue-state` argo-cd app of apps.
 
 ## Methodology
